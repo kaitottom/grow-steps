@@ -1,9 +1,9 @@
-export const analyzeEntry = (entry: any) => {
+export const analyzeEntry = (_entry: any) => {
     // Simple placeholder feedback at entry time (basic, no AI shown to user now)
     return '';
 };
 
-export const analyzeReflection = (entry: any, reflection: { learnings: string; feelings: string; nextSteps: string }) => {
+export const analyzeReflection = (_entry: any, reflection: { learnings: string; feelings: string; nextSteps: string }) => {
     const { learnings, feelings, nextSteps } = reflection;
 
     const feedbackTemplates = [
